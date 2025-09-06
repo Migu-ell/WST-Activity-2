@@ -105,6 +105,67 @@
             font-size: 0.9em;
             margin-top: auto;
         }
+
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+            .container {
+                padding: 0 5px;
+            }
+            
+            .anime-table {
+                padding: 15px 10px;
+                margin: 15px 5px;
+            }
+            
+            table {
+                font-size: 0.85em;
+            }
+            
+            td {
+                padding: 8px 4px;
+                min-width: 80px;
+            }
+            
+            img {
+                max-width: 80px;
+                margin-bottom: 5px;
+            }
+            
+            .anime-title {
+                font-size: 0.75em;
+                min-height: 35px;
+                line-height: 1.2;
+            }
+            
+            h1 {
+                font-size: 1.3em;
+                margin-bottom: 15px;
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .anime-table {
+                padding: 10px 5px;
+            }
+            
+            td {
+                padding: 6px 2px;
+                min-width: 70px;
+            }
+            
+            img {
+                max-width: 70px;
+            }
+            
+            .anime-title {
+                font-size: 0.7em;
+                min-height: 30px;
+            }
+            
+            h1 {
+                font-size: 1.2em;
+            }
+        }
     </style>
 </head>
 <body>
